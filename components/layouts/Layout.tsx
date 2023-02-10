@@ -5,7 +5,7 @@ import { Navbar, Sidebar } from '../ui';
 
 interface Props {
   title: string;
-  children: JSX.Element;
+  children: React.ReactNode | React.ReactNode[];
 }
 
 export const Layout: FC<Props> = ({ title = 'Open Jira', children }) => {
